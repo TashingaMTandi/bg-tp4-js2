@@ -1,0 +1,68 @@
+/* Slide 34: Mise en forme de l'espace résumé */
+#container_summary {
+    display: flex;
+    justify-content: space-between; /* p1 à gauche, p3 à droite */
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+#container_summary p {
+    margin: 0;
+}
+
+/* p2 est un élément vide qui sert d'espaceur entre p1 et p3 */
+#p2 {
+    flex-grow: 1;
+}
+/* Slide 10: Styles for the container */
+#table_container {
+    font-family: Calibri, sans-serif;
+    width: 80%; /* Adjust as needed */
+    margin: 20px auto; /* Center the table */
+}
+
+/* Basic table styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Removes double borders */
+    border: 1px solid #ededed; /* Sets border width, style, and color */
+}
+
+/* Header styling */
+thead {
+    background-color: #0078d7; /* A blue similar to the screenshot */
+    color: white;
+    border: 1px solid #ededed; /* Sets border width, style, and color */
+
+}
+
+th, td {
+    padding: 6px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid #ededed; /* Sets border width, style, and color */
+}
+
+/* Slide 10: Specific column styles */
+.col_number {
+    text-align: center;
+    width: 50px;
+    border: 1px solid #ededed; /* Sets border width, style, and color */
+}
+
+.col_chkbox {
+    text-align: center;
+    width: 60px;
+    border: 1px solid #ededed; /* Sets border width, style, and color */
+
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+    background-color: #f5f5f5;
+    border: 1px solid #ffffff; /* Sets border width, style, and color */
+
+}
